@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Neucha', cursive;
+  background: #EDC2B4;
+  color: #D8D8D8;
+  width: 1300px;
+  height: 900px;
+  overflow: hidden;
+}
+
+.backFon {
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1280px;
+  height: 100vh;
+  width: 100%;
+}
+
+.backFon .leftWrap {
+  position: relative;
+  width: 200px;
+  height: 100%;
+  background-image: url(../img/bkg_darkwood.jpg);
+}
+
+.backFon .leftWrap #logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  padding: 10px 10px;
+  background: transparent;
+}
+
+.backFon .leftWrap .leftWrap__menu {
+  position: relative;
+  padding-top: 100px;
+  margin: 0 auto;
+  list-style-type: none;
+  width: 150px;
+  font-size: 16px;
+}
+
+.backFon .leftWrap .leftWrap__menu li {
+  text-align: left;
+  padding: 5px;
+  border: 1px solid #C27156;
+  margin-top: 4px;
+  transition: all 0.5s;
+}
+
+.backFon .leftWrap .leftWrap__menu li > a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.backFon .leftWrap .leftWrap__menu li:hover {
+  background: #744D43;
+  cursor: pointer;
+}
+
+.backFon .leftWrap .leftWrap__menu li:hover > a {
+  font-weight: 800;
+}
+
+.backFon .leftWrap .leftWrap__social {
+  padding-top: 90%;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  text-align: center;
+}
+
+.backFon .leftWrap .leftWrap__social img {
+  width: 30px;
+  height: 30px;
+}
+
+.backFon .leftWrap .leftWrap__social a {
+  padding: 0 5px;
+}
+
+.backFon .backFon__BigLogo {
+  position: absolute;
+  display: block;
+  top: 5%;
+  left: 220px;
+  width: calc(100% - 240px);
+  height: 100%;
+  overflow: hidden;
+}
+
+.backFon .backFon__BigLogo h1 {
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  padding-bottom: 100px;
+  text-transform: uppercase;
+}
+
+.backFon .backFon__BigLogo img {
+  width: 400px;
+  margin-left: calc(50% - 200px);
+}
+
+.backFon .backFon__BigLogo h2 {
+  font-family: 'Neuton', serif;
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  text-shadow: 2px 2px 0 #3D3D3D, -2px -2px 0 #606060;
+}
+
+.backFon .backFon__BeerChange {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 200px;
+  width: calc(100% - 220px);
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  background-image: url(../img/BlackBeer1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.backFon .backFon__BeerChange .backFon__BeerChange__color {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: hue;
+  transition: all 1s;
+  opacity: 0.7;
+}

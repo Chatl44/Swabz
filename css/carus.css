@@ -1,0 +1,66 @@
+.carus {
+	top: 50px;
+	left: calc(50% - 250px);
+	height: 300px;
+	width: 700px;
+	background: #45311B;;
+	opacity: 0.8;
+	display: flex;
+	flex-direction: row;
+	border: 2px solid #F7E1C9;
+	border-radius: 20px;
+	position: absolute;
+	z-index: 1;
+	display: none;
+}
+
+.carus .hide {
+	opacity: 0;	
+}
+
+.carus .showed {
+	opacity: 1;	
+}
+
+.carus .slide {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	transition:all 1s linear;
+}
+
+.carus img {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px; 
+	height: 290px;
+	width: auto;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.comm {
+	display: flex;
+	flex-direction: column;
+	align-self:  center;
+}
+
+.comm h1{
+	font-family: 'Neucha', cursive;	
+	color: #F7E1C9;
+}
+
+.comm p{
+	font-family: 'Neucha', cursive;	
+	font-size: 18px;
+	color: #EAB175;
+}
+
+@media screen and (max-width: 700px) {
+	.carus{
+		display:none; 
+	}
+}
